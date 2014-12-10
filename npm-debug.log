@@ -1,0 +1,1871 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 info shrinkwrap file "/Users/kelvin/Documents/git/nodebb/npm-shrinkwrap.json"
+5 verbose readDependencies returned deps { async: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+5 verbose readDependencies returned deps   bcryptjs: 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz',
+5 verbose readDependencies returned deps   'body-parser': 'https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz',
+5 verbose readDependencies returned deps   compression: 'https://registry.npmjs.org/compression/-/compression-1.2.1.tgz',
+5 verbose readDependencies returned deps   'connect-ensure-login': 'https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+5 verbose readDependencies returned deps   'connect-flash': 'https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz',
+5 verbose readDependencies returned deps   'connect-multiparty': 'https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+5 verbose readDependencies returned deps   'cookie-parser': 'https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz',
+5 verbose readDependencies returned deps   cron: 'https://registry.npmjs.org/cron/-/cron-1.0.5.tgz',
+5 verbose readDependencies returned deps   csurf: 'https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz',
+5 verbose readDependencies returned deps   daemon: 'https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz',
+5 verbose readDependencies returned deps   express: 'https://registry.npmjs.org/express/-/express-4.10.2.tgz',
+5 verbose readDependencies returned deps   'express-session': 'https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz',
+5 verbose readDependencies returned deps   gm: 'https://registry.npmjs.org/gm/-/gm-1.16.0.tgz',
+5 verbose readDependencies returned deps   gravatar: 'https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz',
+5 verbose readDependencies returned deps   less: 'https://registry.npmjs.org/less/-/less-1.7.5.tgz',
+5 verbose readDependencies returned deps   'logrotate-stream': 'https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+5 verbose readDependencies returned deps   mkdirp: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz',
+5 verbose readDependencies returned deps   morgan: 'https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz',
+5 verbose readDependencies returned deps   nconf: 'http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz',
+5 verbose readDependencies returned deps   'nodebb-plugin-dbsearch': 'https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+5 verbose readDependencies returned deps   'nodebb-plugin-markdown': 'https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+5 verbose readDependencies returned deps   'nodebb-plugin-mentions': '0.6.3',
+5 verbose readDependencies returned deps   'nodebb-plugin-soundpack-default': 'https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+5 verbose readDependencies returned deps   'nodebb-theme-lavender': 'https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+5 verbose readDependencies returned deps   'nodebb-theme-vanilla': 'https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+5 verbose readDependencies returned deps   'nodebb-widget-essentials': 'https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+5 verbose readDependencies returned deps   npm: 'https://registry.npmjs.org/npm/-/npm-2.1.9.tgz',
+5 verbose readDependencies returned deps   passport: 'https://registry.npmjs.org/passport/-/passport-0.2.1.tgz',
+5 verbose readDependencies returned deps   'passport-local': 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+5 verbose readDependencies returned deps   prompt: 'https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+5 verbose readDependencies returned deps   reds: 'https://registry.npmjs.org/reds/-/reds-0.2.4.tgz',
+5 verbose readDependencies returned deps   request: 'https://registry.npmjs.org/request/-/request-2.48.0.tgz',
+5 verbose readDependencies returned deps   rimraf: 'https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+5 verbose readDependencies returned deps   rss: 'https://registry.npmjs.org/rss/-/rss-1.0.1.tgz',
+5 verbose readDependencies returned deps   semver: 'https://registry.npmjs.org/semver/-/semver-4.1.0.tgz',
+5 verbose readDependencies returned deps   'serve-favicon': 'https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz',
+5 verbose readDependencies returned deps   sitemap: 'https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz',
+5 verbose readDependencies returned deps   'socket.io': 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz',
+5 verbose readDependencies returned deps   'socket.io-client': 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz',
+5 verbose readDependencies returned deps   'socket.io-wildcard': 'https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+5 verbose readDependencies returned deps   string: 'https://registry.npmjs.org/string/-/string-2.2.0.tgz',
+5 verbose readDependencies returned deps   'templates.js': 'https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz',
+5 verbose readDependencies returned deps   'uglify-js': 'git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1',
+5 verbose readDependencies returned deps   underscore: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+5 verbose readDependencies returned deps   validator: 'https://registry.npmjs.org/validator/-/validator-3.21.0.tgz',
+5 verbose readDependencies returned deps   winston: 'https://registry.npmjs.org/winston/-/winston-0.8.3.tgz',
+5 verbose readDependencies returned deps   xregexp: 'https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz',
+5 verbose readDependencies returned deps   mocha: '~1.13.0' }
+6 verbose install where, deps [ '/Users/kelvin/Documents/git/nodebb',
+6 verbose install   [ 'async',
+6 verbose install     'bcryptjs',
+6 verbose install     'body-parser',
+6 verbose install     'compression',
+6 verbose install     'connect-ensure-login',
+6 verbose install     'connect-flash',
+6 verbose install     'connect-multiparty',
+6 verbose install     'cookie-parser',
+6 verbose install     'cron',
+6 verbose install     'csurf',
+6 verbose install     'daemon',
+6 verbose install     'express',
+6 verbose install     'express-session',
+6 verbose install     'gm',
+6 verbose install     'gravatar',
+6 verbose install     'less',
+6 verbose install     'logrotate-stream',
+6 verbose install     'mkdirp',
+6 verbose install     'morgan',
+6 verbose install     'nconf',
+6 verbose install     'nodebb-plugin-dbsearch',
+6 verbose install     'nodebb-plugin-markdown',
+6 verbose install     'nodebb-plugin-mentions',
+6 verbose install     'nodebb-plugin-soundpack-default',
+6 verbose install     'nodebb-theme-lavender',
+6 verbose install     'nodebb-theme-vanilla',
+6 verbose install     'nodebb-widget-essentials',
+6 verbose install     'npm',
+6 verbose install     'passport',
+6 verbose install     'passport-local',
+6 verbose install     'prompt',
+6 verbose install     'reds',
+6 verbose install     'request',
+6 verbose install     'rimraf',
+6 verbose install     'rss',
+6 verbose install     'semver',
+6 verbose install     'serve-favicon',
+6 verbose install     'sitemap',
+6 verbose install     'socket.io',
+6 verbose install     'socket.io-client',
+6 verbose install     'socket.io-wildcard',
+6 verbose install     'string',
+6 verbose install     'templates.js',
+6 verbose install     'uglify-js',
+6 verbose install     'underscore',
+6 verbose install     'validator',
+6 verbose install     'winston',
+6 verbose install     'xregexp',
+6 verbose install     'mocha' ] ]
+7 info preinstall nodebb@0.5.7
+8 info shrinkwrap file "/Users/kelvin/Documents/git/nodebb/npm-shrinkwrap.json"
+9 verbose readDependencies returned deps { async: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+9 verbose readDependencies returned deps   bcryptjs: 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz',
+9 verbose readDependencies returned deps   'body-parser': 'https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz',
+9 verbose readDependencies returned deps   compression: 'https://registry.npmjs.org/compression/-/compression-1.2.1.tgz',
+9 verbose readDependencies returned deps   'connect-ensure-login': 'https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+9 verbose readDependencies returned deps   'connect-flash': 'https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz',
+9 verbose readDependencies returned deps   'connect-multiparty': 'https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+9 verbose readDependencies returned deps   'cookie-parser': 'https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz',
+9 verbose readDependencies returned deps   cron: 'https://registry.npmjs.org/cron/-/cron-1.0.5.tgz',
+9 verbose readDependencies returned deps   csurf: 'https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz',
+9 verbose readDependencies returned deps   daemon: 'https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz',
+9 verbose readDependencies returned deps   express: 'https://registry.npmjs.org/express/-/express-4.10.2.tgz',
+9 verbose readDependencies returned deps   'express-session': 'https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz',
+9 verbose readDependencies returned deps   gm: 'https://registry.npmjs.org/gm/-/gm-1.16.0.tgz',
+9 verbose readDependencies returned deps   gravatar: 'https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz',
+9 verbose readDependencies returned deps   less: 'https://registry.npmjs.org/less/-/less-1.7.5.tgz',
+9 verbose readDependencies returned deps   'logrotate-stream': 'https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+9 verbose readDependencies returned deps   mkdirp: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz',
+9 verbose readDependencies returned deps   morgan: 'https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz',
+9 verbose readDependencies returned deps   nconf: 'http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz',
+9 verbose readDependencies returned deps   'nodebb-plugin-dbsearch': 'https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+9 verbose readDependencies returned deps   'nodebb-plugin-markdown': 'https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+9 verbose readDependencies returned deps   'nodebb-plugin-mentions': '0.6.3',
+9 verbose readDependencies returned deps   'nodebb-plugin-soundpack-default': 'https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+9 verbose readDependencies returned deps   'nodebb-theme-lavender': 'https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+9 verbose readDependencies returned deps   'nodebb-theme-vanilla': 'https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+9 verbose readDependencies returned deps   'nodebb-widget-essentials': 'https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+9 verbose readDependencies returned deps   npm: 'https://registry.npmjs.org/npm/-/npm-2.1.9.tgz',
+9 verbose readDependencies returned deps   passport: 'https://registry.npmjs.org/passport/-/passport-0.2.1.tgz',
+9 verbose readDependencies returned deps   'passport-local': 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+9 verbose readDependencies returned deps   prompt: 'https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+9 verbose readDependencies returned deps   reds: 'https://registry.npmjs.org/reds/-/reds-0.2.4.tgz',
+9 verbose readDependencies returned deps   request: 'https://registry.npmjs.org/request/-/request-2.48.0.tgz',
+9 verbose readDependencies returned deps   rimraf: 'https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+9 verbose readDependencies returned deps   rss: 'https://registry.npmjs.org/rss/-/rss-1.0.1.tgz',
+9 verbose readDependencies returned deps   semver: 'https://registry.npmjs.org/semver/-/semver-4.1.0.tgz',
+9 verbose readDependencies returned deps   'serve-favicon': 'https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz',
+9 verbose readDependencies returned deps   sitemap: 'https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz',
+9 verbose readDependencies returned deps   'socket.io': 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz',
+9 verbose readDependencies returned deps   'socket.io-client': 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz',
+9 verbose readDependencies returned deps   'socket.io-wildcard': 'https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+9 verbose readDependencies returned deps   string: 'https://registry.npmjs.org/string/-/string-2.2.0.tgz',
+9 verbose readDependencies returned deps   'templates.js': 'https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz',
+9 verbose readDependencies returned deps   'uglify-js': 'git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1',
+9 verbose readDependencies returned deps   underscore: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+9 verbose readDependencies returned deps   validator: 'https://registry.npmjs.org/validator/-/validator-3.21.0.tgz',
+9 verbose readDependencies returned deps   winston: 'https://registry.npmjs.org/winston/-/winston-0.8.3.tgz',
+9 verbose readDependencies returned deps   xregexp: 'https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz' }
+10 verbose cache add [ 'body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz',
+10 verbose cache add   null ]
+11 verbose cache add name=undefined spec="body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz" args=["body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz',
+12 verbose parsed url   path: 'body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz',
+12 verbose parsed url   href: 'body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz' }
+13 verbose cache add [ 'compression@https://registry.npmjs.org/compression/-/compression-1.2.1.tgz',
+13 verbose cache add   null ]
+14 verbose cache add name=undefined spec="compression@https://registry.npmjs.org/compression/-/compression-1.2.1.tgz" args=["compression@https://registry.npmjs.org/compression/-/compression-1.2.1.tgz",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'compression@https://registry.npmjs.org/compression/-/compression-1.2.1.tgz',
+15 verbose parsed url   path: 'compression@https://registry.npmjs.org/compression/-/compression-1.2.1.tgz',
+15 verbose parsed url   href: 'compression@https://registry.npmjs.org/compression/-/compression-1.2.1.tgz' }
+16 verbose cache add name="body-parser" spec="https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz" args=["body-parser","https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz"]
+17 verbose parsed url { protocol: 'https:',
+17 verbose parsed url   slashes: true,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: 'registry.npmjs.org',
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: 'registry.npmjs.org',
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '/body-parser/-/body-parser-1.9.3.tgz',
+17 verbose parsed url   path: '/body-parser/-/body-parser-1.9.3.tgz',
+17 verbose parsed url   href: 'https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz' }
+18 verbose cache add [ 'connect-ensure-login@https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+18 verbose cache add   null ]
+19 verbose cache add name=undefined spec="connect-ensure-login@https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz" args=["connect-ensure-login@https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'connect-ensure-login@https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+20 verbose parsed url   path: 'connect-ensure-login@https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+20 verbose parsed url   href: 'connect-ensure-login@https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz' }
+21 verbose cache add name="compression" spec="https://registry.npmjs.org/compression/-/compression-1.2.1.tgz" args=["compression","https://registry.npmjs.org/compression/-/compression-1.2.1.tgz"]
+22 verbose parsed url { protocol: 'https:',
+22 verbose parsed url   slashes: true,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: 'registry.npmjs.org',
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: 'registry.npmjs.org',
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '/compression/-/compression-1.2.1.tgz',
+22 verbose parsed url   path: '/compression/-/compression-1.2.1.tgz',
+22 verbose parsed url   href: 'https://registry.npmjs.org/compression/-/compression-1.2.1.tgz' }
+23 silly lockFile c226cff2-ody-parser-body-parser-1-9-3-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz
+24 verbose lock https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz /Users/kelvin/.npm/c226cff2-ody-parser-body-parser-1-9-3-tgz.lock
+25 verbose cache add [ 'connect-flash@https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz',
+25 verbose cache add   null ]
+26 verbose cache add name=undefined spec="connect-flash@https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz" args=["connect-flash@https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'connect-flash@https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz',
+27 verbose parsed url   path: 'connect-flash@https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz',
+27 verbose parsed url   href: 'connect-flash@https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz' }
+28 verbose cache add name="connect-ensure-login" spec="https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz" args=["connect-ensure-login","https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz"]
+29 verbose parsed url { protocol: 'https:',
+29 verbose parsed url   slashes: true,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: 'registry.npmjs.org',
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: 'registry.npmjs.org',
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+29 verbose parsed url   path: '/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+29 verbose parsed url   href: 'https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz' }
+30 silly lockFile e8aa9562-n-connect-ensure-login-0-1-1-tgz https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz
+31 verbose lock https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz /Users/kelvin/.npm/e8aa9562-n-connect-ensure-login-0-1-1-tgz.lock
+32 silly lockFile 8095ec4a-ompression-compression-1-2-1-tgz https://registry.npmjs.org/compression/-/compression-1.2.1.tgz
+33 verbose lock https://registry.npmjs.org/compression/-/compression-1.2.1.tgz /Users/kelvin/.npm/8095ec4a-ompression-compression-1-2-1-tgz.lock
+34 verbose cache add [ 'connect-multiparty@https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+34 verbose cache add   null ]
+35 verbose cache add name=undefined spec="connect-multiparty@https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz" args=["connect-multiparty@https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz",null]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'connect-multiparty@https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+36 verbose parsed url   path: 'connect-multiparty@https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+36 verbose parsed url   href: 'connect-multiparty@https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz' }
+37 verbose cache add name="connect-flash" spec="https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz" args=["connect-flash","https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz"]
+38 verbose parsed url { protocol: 'https:',
+38 verbose parsed url   slashes: true,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: 'registry.npmjs.org',
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: 'registry.npmjs.org',
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '/connect-flash/-/connect-flash-0.1.1.tgz',
+38 verbose parsed url   path: '/connect-flash/-/connect-flash-0.1.1.tgz',
+38 verbose parsed url   href: 'https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz' }
+39 silly lockFile e33d4ca4-ct-flash-connect-flash-0-1-1-tgz https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz
+40 verbose lock https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz /Users/kelvin/.npm/e33d4ca4-ct-flash-connect-flash-0-1-1-tgz.lock
+41 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz',
+41 verbose addRemoteTarball   null ]
+42 verbose cache add [ 'cookie-parser@https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz',
+42 verbose cache add   null ]
+43 verbose cache add name=undefined spec="cookie-parser@https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz" args=["cookie-parser@https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'cookie-parser@https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz',
+44 verbose parsed url   path: 'cookie-parser@https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz',
+44 verbose parsed url   href: 'cookie-parser@https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz' }
+45 verbose cache add name="connect-multiparty" spec="https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz" args=["connect-multiparty","https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz"]
+46 verbose parsed url { protocol: 'https:',
+46 verbose parsed url   slashes: true,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: 'registry.npmjs.org',
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: 'registry.npmjs.org',
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+46 verbose parsed url   path: '/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+46 verbose parsed url   href: 'https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz' }
+47 silly lockFile 046486c5-rty-connect-multiparty-1-2-5-tgz https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz
+48 verbose lock https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz /Users/kelvin/.npm/046486c5-rty-connect-multiparty-1-2-5-tgz.lock
+49 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz',
+49 verbose addRemoteTarball   null ]
+50 verbose addRemoteTarball [ 'https://registry.npmjs.org/compression/-/compression-1.2.1.tgz',
+50 verbose addRemoteTarball   null ]
+51 verbose cache add [ 'cron@https://registry.npmjs.org/cron/-/cron-1.0.5.tgz',
+51 verbose cache add   null ]
+52 verbose cache add name=undefined spec="cron@https://registry.npmjs.org/cron/-/cron-1.0.5.tgz" args=["cron@https://registry.npmjs.org/cron/-/cron-1.0.5.tgz",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'cron@https://registry.npmjs.org/cron/-/cron-1.0.5.tgz',
+53 verbose parsed url   path: 'cron@https://registry.npmjs.org/cron/-/cron-1.0.5.tgz',
+53 verbose parsed url   href: 'cron@https://registry.npmjs.org/cron/-/cron-1.0.5.tgz' }
+54 verbose cache add [ 'csurf@https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz',
+54 verbose cache add   null ]
+55 verbose cache add name=undefined spec="csurf@https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz" args=["csurf@https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'csurf@https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz',
+56 verbose parsed url   path: 'csurf@https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz',
+56 verbose parsed url   href: 'csurf@https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz' }
+57 verbose cache add name="cookie-parser" spec="https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz" args=["cookie-parser","https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz"]
+58 verbose parsed url { protocol: 'https:',
+58 verbose parsed url   slashes: true,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: 'registry.npmjs.org',
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: 'registry.npmjs.org',
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '/cookie-parser/-/cookie-parser-1.3.3.tgz',
+58 verbose parsed url   path: '/cookie-parser/-/cookie-parser-1.3.3.tgz',
+58 verbose parsed url   href: 'https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz' }
+59 silly lockFile 864e7377-e-parser-cookie-parser-1-3-3-tgz https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz
+60 verbose lock https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz /Users/kelvin/.npm/864e7377-e-parser-cookie-parser-1-3-3-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz',
+61 verbose addRemoteTarball   null ]
+62 info retry fetch attempt 1 at 23:29:57
+63 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397112-0.4325399873778224/tmp.tgz
+64 info retry fetch attempt 1 at 23:29:57
+65 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397111-0.5023314096033573/tmp.tgz
+66 verbose cache add name="cron" spec="https://registry.npmjs.org/cron/-/cron-1.0.5.tgz" args=["cron","https://registry.npmjs.org/cron/-/cron-1.0.5.tgz"]
+67 verbose parsed url { protocol: 'https:',
+67 verbose parsed url   slashes: true,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: 'registry.npmjs.org',
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: 'registry.npmjs.org',
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: '/cron/-/cron-1.0.5.tgz',
+67 verbose parsed url   path: '/cron/-/cron-1.0.5.tgz',
+67 verbose parsed url   href: 'https://registry.npmjs.org/cron/-/cron-1.0.5.tgz' }
+68 silly lockFile 1012f833-ry-npmjs-org-cron-cron-1-0-5-tgz https://registry.npmjs.org/cron/-/cron-1.0.5.tgz
+69 verbose lock https://registry.npmjs.org/cron/-/cron-1.0.5.tgz /Users/kelvin/.npm/1012f833-ry-npmjs-org-cron-cron-1-0-5-tgz.lock
+70 verbose cache add [ 'daemon@https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz',
+70 verbose cache add   null ]
+71 verbose cache add name=undefined spec="daemon@https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz" args=["daemon@https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz",null]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: 'daemon@https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz',
+72 verbose parsed url   path: 'daemon@https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz',
+72 verbose parsed url   href: 'daemon@https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz' }
+73 verbose cache add [ 'express@https://registry.npmjs.org/express/-/express-4.10.2.tgz',
+73 verbose cache add   null ]
+74 verbose cache add name=undefined spec="express@https://registry.npmjs.org/express/-/express-4.10.2.tgz" args=["express@https://registry.npmjs.org/express/-/express-4.10.2.tgz",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'express@https://registry.npmjs.org/express/-/express-4.10.2.tgz',
+75 verbose parsed url   path: 'express@https://registry.npmjs.org/express/-/express-4.10.2.tgz',
+75 verbose parsed url   href: 'express@https://registry.npmjs.org/express/-/express-4.10.2.tgz' }
+76 verbose cache add name="csurf" spec="https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz" args=["csurf","https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz"]
+77 verbose parsed url { protocol: 'https:',
+77 verbose parsed url   slashes: true,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: 'registry.npmjs.org',
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: 'registry.npmjs.org',
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '/csurf/-/csurf-1.6.3.tgz',
+77 verbose parsed url   path: '/csurf/-/csurf-1.6.3.tgz',
+77 verbose parsed url   href: 'https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz' }
+78 silly lockFile 74045fc0--npmjs-org-csurf-csurf-1-6-3-tgz https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz
+79 verbose lock https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz /Users/kelvin/.npm/74045fc0--npmjs-org-csurf-csurf-1-6-3-tgz.lock
+80 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz',
+80 verbose addRemoteTarball   null ]
+81 info retry fetch attempt 1 at 23:29:57
+82 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397113-0.4310029707849026/tmp.tgz
+83 info retry fetch attempt 1 at 23:29:57
+84 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397110-0.6840230599045753/tmp.tgz
+85 verbose cache add name="daemon" spec="https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz" args=["daemon","https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz"]
+86 verbose parsed url { protocol: 'https:',
+86 verbose parsed url   slashes: true,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: 'registry.npmjs.org',
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: 'registry.npmjs.org',
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: '/daemon/-/daemon-1.1.0.tgz',
+86 verbose parsed url   path: '/daemon/-/daemon-1.1.0.tgz',
+86 verbose parsed url   href: 'https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz' }
+87 silly lockFile 33e92e34-pmjs-org-daemon-daemon-1-1-0-tgz https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz
+88 verbose lock https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz /Users/kelvin/.npm/33e92e34-pmjs-org-daemon-daemon-1-1-0-tgz.lock
+89 verbose cache add [ 'gravatar@https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz',
+89 verbose cache add   null ]
+90 verbose cache add name=undefined spec="gravatar@https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz" args=["gravatar@https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'gravatar@https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz',
+91 verbose parsed url   path: 'gravatar@https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz',
+91 verbose parsed url   href: 'gravatar@https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz' }
+92 verbose cache add [ 'express-session@https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz',
+92 verbose cache add   null ]
+93 verbose cache add name=undefined spec="express-session@https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz" args=["express-session@https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz",null]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: 'express-session@https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz',
+94 verbose parsed url   path: 'express-session@https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz',
+94 verbose parsed url   href: 'express-session@https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz' }
+95 verbose cache add [ 'gm@https://registry.npmjs.org/gm/-/gm-1.16.0.tgz', null ]
+96 verbose cache add name=undefined spec="gm@https://registry.npmjs.org/gm/-/gm-1.16.0.tgz" args=["gm@https://registry.npmjs.org/gm/-/gm-1.16.0.tgz",null]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'gm@https://registry.npmjs.org/gm/-/gm-1.16.0.tgz',
+97 verbose parsed url   path: 'gm@https://registry.npmjs.org/gm/-/gm-1.16.0.tgz',
+97 verbose parsed url   href: 'gm@https://registry.npmjs.org/gm/-/gm-1.16.0.tgz' }
+98 verbose cache add [ 'less@https://registry.npmjs.org/less/-/less-1.7.5.tgz',
+98 verbose cache add   null ]
+99 verbose cache add name=undefined spec="less@https://registry.npmjs.org/less/-/less-1.7.5.tgz" args=["less@https://registry.npmjs.org/less/-/less-1.7.5.tgz",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'less@https://registry.npmjs.org/less/-/less-1.7.5.tgz',
+100 verbose parsed url   path: 'less@https://registry.npmjs.org/less/-/less-1.7.5.tgz',
+100 verbose parsed url   href: 'less@https://registry.npmjs.org/less/-/less-1.7.5.tgz' }
+101 verbose cache add [ 'logrotate-stream@https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+101 verbose cache add   null ]
+102 verbose cache add name=undefined spec="logrotate-stream@https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz" args=["logrotate-stream@https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz",null]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: 'logrotate-stream@https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+103 verbose parsed url   path: 'logrotate-stream@https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+103 verbose parsed url   href: 'logrotate-stream@https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz' }
+104 verbose cache add [ 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz',
+104 verbose cache add   null ]
+105 verbose cache add name=undefined spec="mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz" args=["mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz',
+106 verbose parsed url   path: 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz',
+106 verbose parsed url   href: 'mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz' }
+107 verbose cache add [ 'morgan@https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz',
+107 verbose cache add   null ]
+108 verbose cache add name=undefined spec="morgan@https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz" args=["morgan@https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'morgan@https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz',
+109 verbose parsed url   path: 'morgan@https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz',
+109 verbose parsed url   href: 'morgan@https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz' }
+110 verbose cache add [ 'nconf@http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz',
+110 verbose cache add   null ]
+111 verbose cache add name=undefined spec="nconf@http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz" args=["nconf@http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz",null]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: 'nconf@http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz',
+112 verbose parsed url   path: 'nconf@http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz',
+112 verbose parsed url   href: 'nconf@http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz' }
+113 verbose cache add [ 'nodebb-plugin-dbsearch@https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+113 verbose cache add   null ]
+114 verbose cache add name=undefined spec="nodebb-plugin-dbsearch@https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz" args=["nodebb-plugin-dbsearch@https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'nodebb-plugin-dbsearch@https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+115 verbose parsed url   path: 'nodebb-plugin-dbsearch@https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+115 verbose parsed url   href: 'nodebb-plugin-dbsearch@https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz' }
+116 verbose cache add [ 'nodebb-plugin-markdown@https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+116 verbose cache add   null ]
+117 verbose cache add name=undefined spec="nodebb-plugin-markdown@https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz" args=["nodebb-plugin-markdown@https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz",null]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'nodebb-plugin-markdown@https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+118 verbose parsed url   path: 'nodebb-plugin-markdown@https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+118 verbose parsed url   href: 'nodebb-plugin-markdown@https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz' }
+119 verbose cache add [ 'nodebb-plugin-mentions@0.6.3', null ]
+120 verbose cache add name=undefined spec="nodebb-plugin-mentions@0.6.3" args=["nodebb-plugin-mentions@0.6.3",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'nodebb-plugin-mentions@0.6.3',
+121 verbose parsed url   path: 'nodebb-plugin-mentions@0.6.3',
+121 verbose parsed url   href: 'nodebb-plugin-mentions@0.6.3' }
+122 verbose cache add name="nodebb-plugin-mentions" spec="0.6.3" args=["nodebb-plugin-mentions","0.6.3"]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: '0.6.3',
+123 verbose parsed url   path: '0.6.3',
+123 verbose parsed url   href: '0.6.3' }
+124 verbose addNamed [ 'nodebb-plugin-mentions', '0.6.3' ]
+125 verbose addNamed [ '0.6.3', '0.6.3' ]
+126 silly lockFile 3f33209a-nodebb-plugin-mentions-0-6-3 nodebb-plugin-mentions@0.6.3
+127 verbose lock nodebb-plugin-mentions@0.6.3 /Users/kelvin/.npm/3f33209a-nodebb-plugin-mentions-0-6-3.lock
+128 verbose cache add name="express" spec="https://registry.npmjs.org/express/-/express-4.10.2.tgz" args=["express","https://registry.npmjs.org/express/-/express-4.10.2.tgz"]
+129 verbose parsed url { protocol: 'https:',
+129 verbose parsed url   slashes: true,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: 'registry.npmjs.org',
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: 'registry.npmjs.org',
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '/express/-/express-4.10.2.tgz',
+129 verbose parsed url   path: '/express/-/express-4.10.2.tgz',
+129 verbose parsed url   href: 'https://registry.npmjs.org/express/-/express-4.10.2.tgz' }
+130 silly lockFile d0bb09e8-s-org-express-express-4-10-2-tgz https://registry.npmjs.org/express/-/express-4.10.2.tgz
+131 verbose lock https://registry.npmjs.org/express/-/express-4.10.2.tgz /Users/kelvin/.npm/d0bb09e8-s-org-express-express-4-10-2-tgz.lock
+132 verbose addRemoteTarball [ 'https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz',
+132 verbose addRemoteTarball   null ]
+133 info retry fetch attempt 1 at 23:29:57
+134 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397114-0.11095613637007773/tmp.tgz
+135 http GET https://registry.npmjs.org/connect-ensure-login/-/connect-ensure-login-0.1.1.tgz
+136 http GET https://registry.npmjs.org/compression/-/compression-1.2.1.tgz
+137 verbose addRemoteTarball [ 'https://registry.npmjs.org/cron/-/cron-1.0.5.tgz', null ]
+138 verbose cache add name="gravatar" spec="https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz" args=["gravatar","https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz"]
+139 verbose parsed url { protocol: 'https:',
+139 verbose parsed url   slashes: true,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: 'registry.npmjs.org',
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: 'registry.npmjs.org',
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: '/gravatar/-/gravatar-1.1.0.tgz',
+139 verbose parsed url   path: '/gravatar/-/gravatar-1.1.0.tgz',
+139 verbose parsed url   href: 'https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz' }
+140 silly lockFile e589fdbd--org-gravatar-gravatar-1-1-0-tgz https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz
+141 verbose lock https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz /Users/kelvin/.npm/e589fdbd--org-gravatar-gravatar-1-1-0-tgz.lock
+142 verbose cache add name="express-session" spec="https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz" args=["express-session","https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz"]
+143 verbose parsed url { protocol: 'https:',
+143 verbose parsed url   slashes: true,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: 'registry.npmjs.org',
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: 'registry.npmjs.org',
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '/express-session/-/express-session-1.9.2.tgz',
+143 verbose parsed url   path: '/express-session/-/express-session-1.9.2.tgz',
+143 verbose parsed url   href: 'https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz' }
+144 silly lockFile 7e7d7bae-ession-express-session-1-9-2-tgz https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz
+145 verbose lock https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz /Users/kelvin/.npm/7e7d7bae-ession-express-session-1-9-2-tgz.lock
+146 verbose cache add name="gm" spec="https://registry.npmjs.org/gm/-/gm-1.16.0.tgz" args=["gm","https://registry.npmjs.org/gm/-/gm-1.16.0.tgz"]
+147 verbose parsed url { protocol: 'https:',
+147 verbose parsed url   slashes: true,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: 'registry.npmjs.org',
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: 'registry.npmjs.org',
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: '/gm/-/gm-1.16.0.tgz',
+147 verbose parsed url   path: '/gm/-/gm-1.16.0.tgz',
+147 verbose parsed url   href: 'https://registry.npmjs.org/gm/-/gm-1.16.0.tgz' }
+148 silly lockFile ea65e1e1-istry-npmjs-org-gm-gm-1-16-0-tgz https://registry.npmjs.org/gm/-/gm-1.16.0.tgz
+149 verbose lock https://registry.npmjs.org/gm/-/gm-1.16.0.tgz /Users/kelvin/.npm/ea65e1e1-istry-npmjs-org-gm-gm-1-16-0-tgz.lock
+150 verbose cache add name="less" spec="https://registry.npmjs.org/less/-/less-1.7.5.tgz" args=["less","https://registry.npmjs.org/less/-/less-1.7.5.tgz"]
+151 verbose parsed url { protocol: 'https:',
+151 verbose parsed url   slashes: true,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: 'registry.npmjs.org',
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: 'registry.npmjs.org',
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: '/less/-/less-1.7.5.tgz',
+151 verbose parsed url   path: '/less/-/less-1.7.5.tgz',
+151 verbose parsed url   href: 'https://registry.npmjs.org/less/-/less-1.7.5.tgz' }
+152 silly lockFile 15f39ed4-ry-npmjs-org-less-less-1-7-5-tgz https://registry.npmjs.org/less/-/less-1.7.5.tgz
+153 verbose lock https://registry.npmjs.org/less/-/less-1.7.5.tgz /Users/kelvin/.npm/15f39ed4-ry-npmjs-org-less-less-1-7-5-tgz.lock
+154 verbose cache add name="logrotate-stream" spec="https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz" args=["logrotate-stream","https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz"]
+155 verbose parsed url { protocol: 'https:',
+155 verbose parsed url   slashes: true,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: 'registry.npmjs.org',
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: 'registry.npmjs.org',
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+155 verbose parsed url   path: '/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+155 verbose parsed url   href: 'https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz' }
+156 silly lockFile 199b509e-tream-logrotate-stream-0-2-3-tgz https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz
+157 verbose lock https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz /Users/kelvin/.npm/199b509e-tream-logrotate-stream-0-2-3-tgz.lock
+158 verbose cache add name="mkdirp" spec="https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz" args=["mkdirp","https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz"]
+159 verbose parsed url { protocol: 'https:',
+159 verbose parsed url   slashes: true,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: 'registry.npmjs.org',
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: 'registry.npmjs.org',
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: '/mkdirp/-/mkdirp-0.5.0.tgz',
+159 verbose parsed url   path: '/mkdirp/-/mkdirp-0.5.0.tgz',
+159 verbose parsed url   href: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz' }
+160 silly lockFile f26a2ada-pmjs-org-mkdirp-mkdirp-0-5-0-tgz https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz
+161 verbose lock https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz /Users/kelvin/.npm/f26a2ada-pmjs-org-mkdirp-mkdirp-0-5-0-tgz.lock
+162 verbose cache add name="morgan" spec="https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz" args=["morgan","https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz"]
+163 verbose parsed url { protocol: 'https:',
+163 verbose parsed url   slashes: true,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: 'registry.npmjs.org',
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: 'registry.npmjs.org',
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '/morgan/-/morgan-1.5.0.tgz',
+163 verbose parsed url   path: '/morgan/-/morgan-1.5.0.tgz',
+163 verbose parsed url   href: 'https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz' }
+164 silly lockFile d1927340-pmjs-org-morgan-morgan-1-5-0-tgz https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz
+165 verbose lock https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz /Users/kelvin/.npm/d1927340-pmjs-org-morgan-morgan-1-5-0-tgz.lock
+166 verbose cache add name="nconf" spec="http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz" args=["nconf","http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz"]
+167 verbose parsed url { protocol: 'http:',
+167 verbose parsed url   slashes: true,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: 'registry.npmjs.org',
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: 'registry.npmjs.org',
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '/nconf/-/nconf-0.6.9.tgz',
+167 verbose parsed url   path: '/nconf/-/nconf-0.6.9.tgz',
+167 verbose parsed url   href: 'http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz' }
+168 silly lockFile 3f1a8f7c--npmjs-org-nconf-nconf-0-6-9-tgz http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz
+169 verbose lock http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz /Users/kelvin/.npm/3f1a8f7c--npmjs-org-nconf-nconf-0-6-9-tgz.lock
+170 verbose cache add name="nodebb-plugin-dbsearch" spec="https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz" args=["nodebb-plugin-dbsearch","https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz"]
+171 verbose parsed url { protocol: 'https:',
+171 verbose parsed url   slashes: true,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: 'registry.npmjs.org',
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: 'registry.npmjs.org',
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: '/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+171 verbose parsed url   path: '/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+171 verbose parsed url   href: 'https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz' }
+172 silly lockFile ab233ae5-odebb-plugin-dbsearch-0-0-15-tgz https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz
+173 verbose lock https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz /Users/kelvin/.npm/ab233ae5-odebb-plugin-dbsearch-0-0-15-tgz.lock
+174 verbose cache add name="nodebb-plugin-markdown" spec="https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz" args=["nodebb-plugin-markdown","https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz"]
+175 verbose parsed url { protocol: 'https:',
+175 verbose parsed url   slashes: true,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: 'registry.npmjs.org',
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: 'registry.npmjs.org',
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: '/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+175 verbose parsed url   path: '/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+175 verbose parsed url   href: 'https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz' }
+176 silly lockFile a636a7a3-nodebb-plugin-markdown-0-7-4-tgz https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz
+177 verbose lock https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz /Users/kelvin/.npm/a636a7a3-nodebb-plugin-markdown-0-7-4-tgz.lock
+178 verbose cache add [ 'nodebb-plugin-soundpack-default@https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+178 verbose cache add   null ]
+179 verbose cache add name=undefined spec="nodebb-plugin-soundpack-default@https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz" args=["nodebb-plugin-soundpack-default@https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz",null]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: 'nodebb-plugin-soundpack-default@https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+180 verbose parsed url   path: 'nodebb-plugin-soundpack-default@https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+180 verbose parsed url   href: 'nodebb-plugin-soundpack-default@https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz' }
+181 verbose cache add [ 'nodebb-theme-lavender@https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+181 verbose cache add   null ]
+182 verbose cache add name=undefined spec="nodebb-theme-lavender@https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz" args=["nodebb-theme-lavender@https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz",null]
+183 verbose parsed url { protocol: null,
+183 verbose parsed url   slashes: null,
+183 verbose parsed url   auth: null,
+183 verbose parsed url   host: null,
+183 verbose parsed url   port: null,
+183 verbose parsed url   hostname: null,
+183 verbose parsed url   hash: null,
+183 verbose parsed url   search: null,
+183 verbose parsed url   query: null,
+183 verbose parsed url   pathname: 'nodebb-theme-lavender@https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+183 verbose parsed url   path: 'nodebb-theme-lavender@https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+183 verbose parsed url   href: 'nodebb-theme-lavender@https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz' }
+184 verbose cache add [ 'nodebb-theme-vanilla@https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+184 verbose cache add   null ]
+185 verbose cache add name=undefined spec="nodebb-theme-vanilla@https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz" args=["nodebb-theme-vanilla@https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz",null]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: 'nodebb-theme-vanilla@https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+186 verbose parsed url   path: 'nodebb-theme-vanilla@https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+186 verbose parsed url   href: 'nodebb-theme-vanilla@https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz' }
+187 verbose cache add [ 'nodebb-widget-essentials@https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+187 verbose cache add   null ]
+188 verbose cache add name=undefined spec="nodebb-widget-essentials@https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz" args=["nodebb-widget-essentials@https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz",null]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: 'nodebb-widget-essentials@https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+189 verbose parsed url   path: 'nodebb-widget-essentials@https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+189 verbose parsed url   href: 'nodebb-widget-essentials@https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz' }
+190 verbose cache add [ 'npm@https://registry.npmjs.org/npm/-/npm-2.1.9.tgz', null ]
+191 verbose cache add name=undefined spec="npm@https://registry.npmjs.org/npm/-/npm-2.1.9.tgz" args=["npm@https://registry.npmjs.org/npm/-/npm-2.1.9.tgz",null]
+192 verbose parsed url { protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: 'npm@https://registry.npmjs.org/npm/-/npm-2.1.9.tgz',
+192 verbose parsed url   path: 'npm@https://registry.npmjs.org/npm/-/npm-2.1.9.tgz',
+192 verbose parsed url   href: 'npm@https://registry.npmjs.org/npm/-/npm-2.1.9.tgz' }
+193 verbose cache add [ 'passport@https://registry.npmjs.org/passport/-/passport-0.2.1.tgz',
+193 verbose cache add   null ]
+194 verbose cache add name=undefined spec="passport@https://registry.npmjs.org/passport/-/passport-0.2.1.tgz" args=["passport@https://registry.npmjs.org/passport/-/passport-0.2.1.tgz",null]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: 'passport@https://registry.npmjs.org/passport/-/passport-0.2.1.tgz',
+195 verbose parsed url   path: 'passport@https://registry.npmjs.org/passport/-/passport-0.2.1.tgz',
+195 verbose parsed url   href: 'passport@https://registry.npmjs.org/passport/-/passport-0.2.1.tgz' }
+196 verbose cache add [ 'passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+196 verbose cache add   null ]
+197 verbose cache add name=undefined spec="passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz" args=["passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+198 verbose parsed url   path: 'passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+198 verbose parsed url   href: 'passport-local@https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz' }
+199 verbose cache add [ 'prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+199 verbose cache add   null ]
+200 verbose cache add name=undefined spec="prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz" args=["prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz",null]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: 'prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+201 verbose parsed url   path: 'prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+201 verbose parsed url   href: 'prompt@https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz' }
+202 verbose cache add [ 'reds@https://registry.npmjs.org/reds/-/reds-0.2.4.tgz',
+202 verbose cache add   null ]
+203 verbose cache add name=undefined spec="reds@https://registry.npmjs.org/reds/-/reds-0.2.4.tgz" args=["reds@https://registry.npmjs.org/reds/-/reds-0.2.4.tgz",null]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: 'reds@https://registry.npmjs.org/reds/-/reds-0.2.4.tgz',
+204 verbose parsed url   path: 'reds@https://registry.npmjs.org/reds/-/reds-0.2.4.tgz',
+204 verbose parsed url   href: 'reds@https://registry.npmjs.org/reds/-/reds-0.2.4.tgz' }
+205 verbose cache add [ 'request@https://registry.npmjs.org/request/-/request-2.48.0.tgz',
+205 verbose cache add   null ]
+206 verbose cache add name=undefined spec="request@https://registry.npmjs.org/request/-/request-2.48.0.tgz" args=["request@https://registry.npmjs.org/request/-/request-2.48.0.tgz",null]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: 'request@https://registry.npmjs.org/request/-/request-2.48.0.tgz',
+207 verbose parsed url   path: 'request@https://registry.npmjs.org/request/-/request-2.48.0.tgz',
+207 verbose parsed url   href: 'request@https://registry.npmjs.org/request/-/request-2.48.0.tgz' }
+208 verbose cache add [ 'rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+208 verbose cache add   null ]
+209 verbose cache add name=undefined spec="rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz" args=["rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz",null]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: 'rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+210 verbose parsed url   path: 'rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+210 verbose parsed url   href: 'rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz' }
+211 verbose cache add [ 'rss@https://registry.npmjs.org/rss/-/rss-1.0.1.tgz', null ]
+212 verbose cache add name=undefined spec="rss@https://registry.npmjs.org/rss/-/rss-1.0.1.tgz" args=["rss@https://registry.npmjs.org/rss/-/rss-1.0.1.tgz",null]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: 'rss@https://registry.npmjs.org/rss/-/rss-1.0.1.tgz',
+213 verbose parsed url   path: 'rss@https://registry.npmjs.org/rss/-/rss-1.0.1.tgz',
+213 verbose parsed url   href: 'rss@https://registry.npmjs.org/rss/-/rss-1.0.1.tgz' }
+214 verbose cache add [ 'semver@https://registry.npmjs.org/semver/-/semver-4.1.0.tgz',
+214 verbose cache add   null ]
+215 verbose cache add name=undefined spec="semver@https://registry.npmjs.org/semver/-/semver-4.1.0.tgz" args=["semver@https://registry.npmjs.org/semver/-/semver-4.1.0.tgz",null]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: 'semver@https://registry.npmjs.org/semver/-/semver-4.1.0.tgz',
+216 verbose parsed url   path: 'semver@https://registry.npmjs.org/semver/-/semver-4.1.0.tgz',
+216 verbose parsed url   href: 'semver@https://registry.npmjs.org/semver/-/semver-4.1.0.tgz' }
+217 verbose cache add [ 'serve-favicon@https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz',
+217 verbose cache add   null ]
+218 verbose cache add name=undefined spec="serve-favicon@https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz" args=["serve-favicon@https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz",null]
+219 verbose parsed url { protocol: null,
+219 verbose parsed url   slashes: null,
+219 verbose parsed url   auth: null,
+219 verbose parsed url   host: null,
+219 verbose parsed url   port: null,
+219 verbose parsed url   hostname: null,
+219 verbose parsed url   hash: null,
+219 verbose parsed url   search: null,
+219 verbose parsed url   query: null,
+219 verbose parsed url   pathname: 'serve-favicon@https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz',
+219 verbose parsed url   path: 'serve-favicon@https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz',
+219 verbose parsed url   href: 'serve-favicon@https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz' }
+220 verbose cache add [ 'sitemap@https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz',
+220 verbose cache add   null ]
+221 verbose cache add name=undefined spec="sitemap@https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz" args=["sitemap@https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz",null]
+222 verbose parsed url { protocol: null,
+222 verbose parsed url   slashes: null,
+222 verbose parsed url   auth: null,
+222 verbose parsed url   host: null,
+222 verbose parsed url   port: null,
+222 verbose parsed url   hostname: null,
+222 verbose parsed url   hash: null,
+222 verbose parsed url   search: null,
+222 verbose parsed url   query: null,
+222 verbose parsed url   pathname: 'sitemap@https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz',
+222 verbose parsed url   path: 'sitemap@https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz',
+222 verbose parsed url   href: 'sitemap@https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz' }
+223 verbose cache add [ 'socket.io@https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz',
+223 verbose cache add   null ]
+224 verbose cache add name=undefined spec="socket.io@https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz" args=["socket.io@https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz",null]
+225 verbose parsed url { protocol: null,
+225 verbose parsed url   slashes: null,
+225 verbose parsed url   auth: null,
+225 verbose parsed url   host: null,
+225 verbose parsed url   port: null,
+225 verbose parsed url   hostname: null,
+225 verbose parsed url   hash: null,
+225 verbose parsed url   search: null,
+225 verbose parsed url   query: null,
+225 verbose parsed url   pathname: 'socket.io@https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz',
+225 verbose parsed url   path: 'socket.io@https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz',
+225 verbose parsed url   href: 'socket.io@https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz' }
+226 verbose cache add [ 'socket.io-client@https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz',
+226 verbose cache add   null ]
+227 verbose cache add name=undefined spec="socket.io-client@https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz" args=["socket.io-client@https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz",null]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: 'socket.io-client@https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz',
+228 verbose parsed url   path: 'socket.io-client@https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz',
+228 verbose parsed url   href: 'socket.io-client@https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz' }
+229 verbose cache add [ 'socket.io-wildcard@https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+229 verbose cache add   null ]
+230 verbose cache add name=undefined spec="socket.io-wildcard@https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz" args=["socket.io-wildcard@https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz",null]
+231 verbose parsed url { protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: 'socket.io-wildcard@https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+231 verbose parsed url   path: 'socket.io-wildcard@https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+231 verbose parsed url   href: 'socket.io-wildcard@https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz' }
+232 verbose cache add [ 'string@https://registry.npmjs.org/string/-/string-2.2.0.tgz',
+232 verbose cache add   null ]
+233 verbose cache add name=undefined spec="string@https://registry.npmjs.org/string/-/string-2.2.0.tgz" args=["string@https://registry.npmjs.org/string/-/string-2.2.0.tgz",null]
+234 verbose parsed url { protocol: null,
+234 verbose parsed url   slashes: null,
+234 verbose parsed url   auth: null,
+234 verbose parsed url   host: null,
+234 verbose parsed url   port: null,
+234 verbose parsed url   hostname: null,
+234 verbose parsed url   hash: null,
+234 verbose parsed url   search: null,
+234 verbose parsed url   query: null,
+234 verbose parsed url   pathname: 'string@https://registry.npmjs.org/string/-/string-2.2.0.tgz',
+234 verbose parsed url   path: 'string@https://registry.npmjs.org/string/-/string-2.2.0.tgz',
+234 verbose parsed url   href: 'string@https://registry.npmjs.org/string/-/string-2.2.0.tgz' }
+235 verbose cache add [ 'templates.js@https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz',
+235 verbose cache add   null ]
+236 verbose cache add name=undefined spec="templates.js@https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz" args=["templates.js@https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz",null]
+237 verbose parsed url { protocol: null,
+237 verbose parsed url   slashes: null,
+237 verbose parsed url   auth: null,
+237 verbose parsed url   host: null,
+237 verbose parsed url   port: null,
+237 verbose parsed url   hostname: null,
+237 verbose parsed url   hash: null,
+237 verbose parsed url   search: null,
+237 verbose parsed url   query: null,
+237 verbose parsed url   pathname: 'templates.js@https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz',
+237 verbose parsed url   path: 'templates.js@https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz',
+237 verbose parsed url   href: 'templates.js@https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz' }
+238 verbose cache add [ 'uglify-js@git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1',
+238 verbose cache add   null ]
+239 verbose cache add name=undefined spec="uglify-js@git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1" args=["uglify-js@git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1",null]
+240 verbose parsed url { protocol: null,
+240 verbose parsed url   slashes: null,
+240 verbose parsed url   auth: null,
+240 verbose parsed url   host: null,
+240 verbose parsed url   port: null,
+240 verbose parsed url   hostname: null,
+240 verbose parsed url   hash: '#859a5e4b06173fcec581ec91d9c6f27c60e78ef1',
+240 verbose parsed url   search: null,
+240 verbose parsed url   query: null,
+240 verbose parsed url   pathname: 'uglify-js@git+https://github.com/julianlam/UglifyJS2.git',
+240 verbose parsed url   path: 'uglify-js@git+https://github.com/julianlam/UglifyJS2.git',
+240 verbose parsed url   href: 'uglify-js@git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1' }
+241 verbose cache add [ 'underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+241 verbose cache add   null ]
+242 verbose cache add name=undefined spec="underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz" args=["underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz",null]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: 'underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+243 verbose parsed url   path: 'underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+243 verbose parsed url   href: 'underscore@https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz' }
+244 verbose cache add [ 'validator@https://registry.npmjs.org/validator/-/validator-3.21.0.tgz',
+244 verbose cache add   null ]
+245 verbose cache add name=undefined spec="validator@https://registry.npmjs.org/validator/-/validator-3.21.0.tgz" args=["validator@https://registry.npmjs.org/validator/-/validator-3.21.0.tgz",null]
+246 verbose parsed url { protocol: null,
+246 verbose parsed url   slashes: null,
+246 verbose parsed url   auth: null,
+246 verbose parsed url   host: null,
+246 verbose parsed url   port: null,
+246 verbose parsed url   hostname: null,
+246 verbose parsed url   hash: null,
+246 verbose parsed url   search: null,
+246 verbose parsed url   query: null,
+246 verbose parsed url   pathname: 'validator@https://registry.npmjs.org/validator/-/validator-3.21.0.tgz',
+246 verbose parsed url   path: 'validator@https://registry.npmjs.org/validator/-/validator-3.21.0.tgz',
+246 verbose parsed url   href: 'validator@https://registry.npmjs.org/validator/-/validator-3.21.0.tgz' }
+247 verbose cache add [ 'winston@https://registry.npmjs.org/winston/-/winston-0.8.3.tgz',
+247 verbose cache add   null ]
+248 verbose cache add name=undefined spec="winston@https://registry.npmjs.org/winston/-/winston-0.8.3.tgz" args=["winston@https://registry.npmjs.org/winston/-/winston-0.8.3.tgz",null]
+249 verbose parsed url { protocol: null,
+249 verbose parsed url   slashes: null,
+249 verbose parsed url   auth: null,
+249 verbose parsed url   host: null,
+249 verbose parsed url   port: null,
+249 verbose parsed url   hostname: null,
+249 verbose parsed url   hash: null,
+249 verbose parsed url   search: null,
+249 verbose parsed url   query: null,
+249 verbose parsed url   pathname: 'winston@https://registry.npmjs.org/winston/-/winston-0.8.3.tgz',
+249 verbose parsed url   path: 'winston@https://registry.npmjs.org/winston/-/winston-0.8.3.tgz',
+249 verbose parsed url   href: 'winston@https://registry.npmjs.org/winston/-/winston-0.8.3.tgz' }
+250 verbose cache add [ 'xregexp@https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz',
+250 verbose cache add   null ]
+251 verbose cache add name=undefined spec="xregexp@https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz" args=["xregexp@https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz",null]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: 'xregexp@https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz',
+252 verbose parsed url   path: 'xregexp@https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz',
+252 verbose parsed url   href: 'xregexp@https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz' }
+253 verbose cache add [ 'mocha@~1.13.0', null ]
+254 verbose cache add name=undefined spec="mocha@~1.13.0" args=["mocha@~1.13.0",null]
+255 verbose parsed url { protocol: null,
+255 verbose parsed url   slashes: null,
+255 verbose parsed url   auth: null,
+255 verbose parsed url   host: null,
+255 verbose parsed url   port: null,
+255 verbose parsed url   hostname: null,
+255 verbose parsed url   hash: null,
+255 verbose parsed url   search: null,
+255 verbose parsed url   query: null,
+255 verbose parsed url   pathname: 'mocha@~1.13.0',
+255 verbose parsed url   path: 'mocha@~1.13.0',
+255 verbose parsed url   href: 'mocha@~1.13.0' }
+256 verbose cache add name="mocha" spec="~1.13.0" args=["mocha","~1.13.0"]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: '~1.13.0',
+257 verbose parsed url   path: '~1.13.0',
+257 verbose parsed url   href: '~1.13.0' }
+258 verbose addNamed [ 'mocha', '~1.13.0' ]
+259 verbose addNamed [ null, '>=1.13.0-0 <1.14.0-0' ]
+260 silly lockFile f170811b-mocha-1-13-0 mocha@~1.13.0
+261 verbose lock mocha@~1.13.0 /Users/kelvin/.npm/f170811b-mocha-1-13-0.lock
+262 verbose cache add [ 'async@https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+262 verbose cache add   null ]
+263 verbose cache add name=undefined spec="async@https://registry.npmjs.org/async/-/async-0.9.0.tgz" args=["async@https://registry.npmjs.org/async/-/async-0.9.0.tgz",null]
+264 verbose parsed url { protocol: null,
+264 verbose parsed url   slashes: null,
+264 verbose parsed url   auth: null,
+264 verbose parsed url   host: null,
+264 verbose parsed url   port: null,
+264 verbose parsed url   hostname: null,
+264 verbose parsed url   hash: null,
+264 verbose parsed url   search: null,
+264 verbose parsed url   query: null,
+264 verbose parsed url   pathname: 'async@https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+264 verbose parsed url   path: 'async@https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+264 verbose parsed url   href: 'async@https://registry.npmjs.org/async/-/async-0.9.0.tgz' }
+265 verbose cache add [ 'bcryptjs@https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz',
+265 verbose cache add   null ]
+266 verbose cache add name=undefined spec="bcryptjs@https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz" args=["bcryptjs@https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz",null]
+267 verbose parsed url { protocol: null,
+267 verbose parsed url   slashes: null,
+267 verbose parsed url   auth: null,
+267 verbose parsed url   host: null,
+267 verbose parsed url   port: null,
+267 verbose parsed url   hostname: null,
+267 verbose parsed url   hash: null,
+267 verbose parsed url   search: null,
+267 verbose parsed url   query: null,
+267 verbose parsed url   pathname: 'bcryptjs@https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz',
+267 verbose parsed url   path: 'bcryptjs@https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz',
+267 verbose parsed url   href: 'bcryptjs@https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz' }
+268 verbose addRemoteTarball [ 'https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz', null ]
+269 http GET https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz
+270 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.9.3.tgz
+271 info retry fetch attempt 1 at 23:29:57
+272 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397115-0.5422678291797638/tmp.tgz
+273 verbose addRemoteTarball [ 'https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz', null ]
+274 info retry fetch attempt 1 at 23:29:57
+275 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397117-0.5365694898646325/tmp.tgz
+276 verbose cache add name="nodebb-plugin-soundpack-default" spec="https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz" args=["nodebb-plugin-soundpack-default","https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz"]
+277 verbose parsed url { protocol: 'https:',
+277 verbose parsed url   slashes: true,
+277 verbose parsed url   auth: null,
+277 verbose parsed url   host: 'registry.npmjs.org',
+277 verbose parsed url   port: null,
+277 verbose parsed url   hostname: 'registry.npmjs.org',
+277 verbose parsed url   hash: null,
+277 verbose parsed url   search: null,
+277 verbose parsed url   query: null,
+277 verbose parsed url   pathname: '/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+277 verbose parsed url   path: '/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+277 verbose parsed url   href: 'https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz' }
+278 silly lockFile 08e005b6-ugin-soundpack-default-0-1-1-tgz https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz
+279 verbose lock https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz /Users/kelvin/.npm/08e005b6-ugin-soundpack-default-0-1-1-tgz.lock
+280 verbose cache add name="nodebb-theme-lavender" spec="https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz" args=["nodebb-theme-lavender","https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz"]
+281 verbose parsed url { protocol: 'https:',
+281 verbose parsed url   slashes: true,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: 'registry.npmjs.org',
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: 'registry.npmjs.org',
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: '/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+281 verbose parsed url   path: '/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+281 verbose parsed url   href: 'https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz' }
+282 silly lockFile e6a20565-nodebb-theme-lavender-0-1-13-tgz https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz
+283 verbose lock https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz /Users/kelvin/.npm/e6a20565-nodebb-theme-lavender-0-1-13-tgz.lock
+284 verbose cache add name="nodebb-theme-vanilla" spec="https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz" args=["nodebb-theme-vanilla","https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz"]
+285 verbose parsed url { protocol: 'https:',
+285 verbose parsed url   slashes: true,
+285 verbose parsed url   auth: null,
+285 verbose parsed url   host: 'registry.npmjs.org',
+285 verbose parsed url   port: null,
+285 verbose parsed url   hostname: 'registry.npmjs.org',
+285 verbose parsed url   hash: null,
+285 verbose parsed url   search: null,
+285 verbose parsed url   query: null,
+285 verbose parsed url   pathname: '/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+285 verbose parsed url   path: '/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+285 verbose parsed url   href: 'https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz' }
+286 silly lockFile a725b070--nodebb-theme-vanilla-0-1-30-tgz https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz
+287 verbose lock https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz /Users/kelvin/.npm/a725b070--nodebb-theme-vanilla-0-1-30-tgz.lock
+288 verbose cache add name="nodebb-widget-essentials" spec="https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz" args=["nodebb-widget-essentials","https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz"]
+289 verbose parsed url { protocol: 'https:',
+289 verbose parsed url   slashes: true,
+289 verbose parsed url   auth: null,
+289 verbose parsed url   host: 'registry.npmjs.org',
+289 verbose parsed url   port: null,
+289 verbose parsed url   hostname: 'registry.npmjs.org',
+289 verbose parsed url   hash: null,
+289 verbose parsed url   search: null,
+289 verbose parsed url   query: null,
+289 verbose parsed url   pathname: '/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+289 verbose parsed url   path: '/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+289 verbose parsed url   href: 'https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz' }
+290 silly lockFile 4c7c02ae-debb-widget-essentials-0-1-2-tgz https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz
+291 verbose lock https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz /Users/kelvin/.npm/4c7c02ae-debb-widget-essentials-0-1-2-tgz.lock
+292 verbose cache add name="npm" spec="https://registry.npmjs.org/npm/-/npm-2.1.9.tgz" args=["npm","https://registry.npmjs.org/npm/-/npm-2.1.9.tgz"]
+293 verbose parsed url { protocol: 'https:',
+293 verbose parsed url   slashes: true,
+293 verbose parsed url   auth: null,
+293 verbose parsed url   host: 'registry.npmjs.org',
+293 verbose parsed url   port: null,
+293 verbose parsed url   hostname: 'registry.npmjs.org',
+293 verbose parsed url   hash: null,
+293 verbose parsed url   search: null,
+293 verbose parsed url   query: null,
+293 verbose parsed url   pathname: '/npm/-/npm-2.1.9.tgz',
+293 verbose parsed url   path: '/npm/-/npm-2.1.9.tgz',
+293 verbose parsed url   href: 'https://registry.npmjs.org/npm/-/npm-2.1.9.tgz' }
+294 silly lockFile 494ffaab-stry-npmjs-org-npm-npm-2-1-9-tgz https://registry.npmjs.org/npm/-/npm-2.1.9.tgz
+295 verbose lock https://registry.npmjs.org/npm/-/npm-2.1.9.tgz /Users/kelvin/.npm/494ffaab-stry-npmjs-org-npm-npm-2-1-9-tgz.lock
+296 verbose cache add name="passport" spec="https://registry.npmjs.org/passport/-/passport-0.2.1.tgz" args=["passport","https://registry.npmjs.org/passport/-/passport-0.2.1.tgz"]
+297 verbose parsed url { protocol: 'https:',
+297 verbose parsed url   slashes: true,
+297 verbose parsed url   auth: null,
+297 verbose parsed url   host: 'registry.npmjs.org',
+297 verbose parsed url   port: null,
+297 verbose parsed url   hostname: 'registry.npmjs.org',
+297 verbose parsed url   hash: null,
+297 verbose parsed url   search: null,
+297 verbose parsed url   query: null,
+297 verbose parsed url   pathname: '/passport/-/passport-0.2.1.tgz',
+297 verbose parsed url   path: '/passport/-/passport-0.2.1.tgz',
+297 verbose parsed url   href: 'https://registry.npmjs.org/passport/-/passport-0.2.1.tgz' }
+298 silly lockFile 06aec021--org-passport-passport-0-2-1-tgz https://registry.npmjs.org/passport/-/passport-0.2.1.tgz
+299 verbose lock https://registry.npmjs.org/passport/-/passport-0.2.1.tgz /Users/kelvin/.npm/06aec021--org-passport-passport-0-2-1-tgz.lock
+300 verbose cache add name="passport-local" spec="https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz" args=["passport-local","https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz"]
+301 verbose parsed url { protocol: 'https:',
+301 verbose parsed url   slashes: true,
+301 verbose parsed url   auth: null,
+301 verbose parsed url   host: 'registry.npmjs.org',
+301 verbose parsed url   port: null,
+301 verbose parsed url   hostname: 'registry.npmjs.org',
+301 verbose parsed url   hash: null,
+301 verbose parsed url   search: null,
+301 verbose parsed url   query: null,
+301 verbose parsed url   pathname: '/passport-local/-/passport-local-1.0.0.tgz',
+301 verbose parsed url   path: '/passport-local/-/passport-local-1.0.0.tgz',
+301 verbose parsed url   href: 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz' }
+302 silly lockFile 4bf3bb31-t-local-passport-local-1-0-0-tgz https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+303 verbose lock https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz /Users/kelvin/.npm/4bf3bb31-t-local-passport-local-1-0-0-tgz.lock
+304 verbose cache add name="prompt" spec="https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz" args=["prompt","https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz"]
+305 verbose parsed url { protocol: 'https:',
+305 verbose parsed url   slashes: true,
+305 verbose parsed url   auth: null,
+305 verbose parsed url   host: 'registry.npmjs.org',
+305 verbose parsed url   port: null,
+305 verbose parsed url   hostname: 'registry.npmjs.org',
+305 verbose parsed url   hash: null,
+305 verbose parsed url   search: null,
+305 verbose parsed url   query: null,
+305 verbose parsed url   pathname: '/prompt/-/prompt-0.2.14.tgz',
+305 verbose parsed url   path: '/prompt/-/prompt-0.2.14.tgz',
+305 verbose parsed url   href: 'https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz' }
+306 silly lockFile 9af7893b-mjs-org-prompt-prompt-0-2-14-tgz https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz
+307 verbose lock https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz /Users/kelvin/.npm/9af7893b-mjs-org-prompt-prompt-0-2-14-tgz.lock
+308 verbose cache add name="reds" spec="https://registry.npmjs.org/reds/-/reds-0.2.4.tgz" args=["reds","https://registry.npmjs.org/reds/-/reds-0.2.4.tgz"]
+309 verbose parsed url { protocol: 'https:',
+309 verbose parsed url   slashes: true,
+309 verbose parsed url   auth: null,
+309 verbose parsed url   host: 'registry.npmjs.org',
+309 verbose parsed url   port: null,
+309 verbose parsed url   hostname: 'registry.npmjs.org',
+309 verbose parsed url   hash: null,
+309 verbose parsed url   search: null,
+309 verbose parsed url   query: null,
+309 verbose parsed url   pathname: '/reds/-/reds-0.2.4.tgz',
+309 verbose parsed url   path: '/reds/-/reds-0.2.4.tgz',
+309 verbose parsed url   href: 'https://registry.npmjs.org/reds/-/reds-0.2.4.tgz' }
+310 silly lockFile d5a56b04-ry-npmjs-org-reds-reds-0-2-4-tgz https://registry.npmjs.org/reds/-/reds-0.2.4.tgz
+311 verbose lock https://registry.npmjs.org/reds/-/reds-0.2.4.tgz /Users/kelvin/.npm/d5a56b04-ry-npmjs-org-reds-reds-0-2-4-tgz.lock
+312 verbose cache add name="request" spec="https://registry.npmjs.org/request/-/request-2.48.0.tgz" args=["request","https://registry.npmjs.org/request/-/request-2.48.0.tgz"]
+313 verbose parsed url { protocol: 'https:',
+313 verbose parsed url   slashes: true,
+313 verbose parsed url   auth: null,
+313 verbose parsed url   host: 'registry.npmjs.org',
+313 verbose parsed url   port: null,
+313 verbose parsed url   hostname: 'registry.npmjs.org',
+313 verbose parsed url   hash: null,
+313 verbose parsed url   search: null,
+313 verbose parsed url   query: null,
+313 verbose parsed url   pathname: '/request/-/request-2.48.0.tgz',
+313 verbose parsed url   path: '/request/-/request-2.48.0.tgz',
+313 verbose parsed url   href: 'https://registry.npmjs.org/request/-/request-2.48.0.tgz' }
+314 silly lockFile 7dca017d-s-org-request-request-2-48-0-tgz https://registry.npmjs.org/request/-/request-2.48.0.tgz
+315 verbose lock https://registry.npmjs.org/request/-/request-2.48.0.tgz /Users/kelvin/.npm/7dca017d-s-org-request-request-2-48-0-tgz.lock
+316 verbose cache add name="rimraf" spec="https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz" args=["rimraf","https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz"]
+317 verbose parsed url { protocol: 'https:',
+317 verbose parsed url   slashes: true,
+317 verbose parsed url   auth: null,
+317 verbose parsed url   host: 'registry.npmjs.org',
+317 verbose parsed url   port: null,
+317 verbose parsed url   hostname: 'registry.npmjs.org',
+317 verbose parsed url   hash: null,
+317 verbose parsed url   search: null,
+317 verbose parsed url   query: null,
+317 verbose parsed url   pathname: '/rimraf/-/rimraf-2.2.8.tgz',
+317 verbose parsed url   path: '/rimraf/-/rimraf-2.2.8.tgz',
+317 verbose parsed url   href: 'https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz' }
+318 silly lockFile c887906a-pmjs-org-rimraf-rimraf-2-2-8-tgz https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz
+319 verbose lock https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz /Users/kelvin/.npm/c887906a-pmjs-org-rimraf-rimraf-2-2-8-tgz.lock
+320 verbose cache add name="rss" spec="https://registry.npmjs.org/rss/-/rss-1.0.1.tgz" args=["rss","https://registry.npmjs.org/rss/-/rss-1.0.1.tgz"]
+321 verbose parsed url { protocol: 'https:',
+321 verbose parsed url   slashes: true,
+321 verbose parsed url   auth: null,
+321 verbose parsed url   host: 'registry.npmjs.org',
+321 verbose parsed url   port: null,
+321 verbose parsed url   hostname: 'registry.npmjs.org',
+321 verbose parsed url   hash: null,
+321 verbose parsed url   search: null,
+321 verbose parsed url   query: null,
+321 verbose parsed url   pathname: '/rss/-/rss-1.0.1.tgz',
+321 verbose parsed url   path: '/rss/-/rss-1.0.1.tgz',
+321 verbose parsed url   href: 'https://registry.npmjs.org/rss/-/rss-1.0.1.tgz' }
+322 silly lockFile 64e29675-stry-npmjs-org-rss-rss-1-0-1-tgz https://registry.npmjs.org/rss/-/rss-1.0.1.tgz
+323 verbose lock https://registry.npmjs.org/rss/-/rss-1.0.1.tgz /Users/kelvin/.npm/64e29675-stry-npmjs-org-rss-rss-1-0-1-tgz.lock
+324 verbose cache add name="semver" spec="https://registry.npmjs.org/semver/-/semver-4.1.0.tgz" args=["semver","https://registry.npmjs.org/semver/-/semver-4.1.0.tgz"]
+325 verbose parsed url { protocol: 'https:',
+325 verbose parsed url   slashes: true,
+325 verbose parsed url   auth: null,
+325 verbose parsed url   host: 'registry.npmjs.org',
+325 verbose parsed url   port: null,
+325 verbose parsed url   hostname: 'registry.npmjs.org',
+325 verbose parsed url   hash: null,
+325 verbose parsed url   search: null,
+325 verbose parsed url   query: null,
+325 verbose parsed url   pathname: '/semver/-/semver-4.1.0.tgz',
+325 verbose parsed url   path: '/semver/-/semver-4.1.0.tgz',
+325 verbose parsed url   href: 'https://registry.npmjs.org/semver/-/semver-4.1.0.tgz' }
+326 silly lockFile d31289fa-pmjs-org-semver-semver-4-1-0-tgz https://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+327 verbose lock https://registry.npmjs.org/semver/-/semver-4.1.0.tgz /Users/kelvin/.npm/d31289fa-pmjs-org-semver-semver-4-1-0-tgz.lock
+328 verbose cache add name="serve-favicon" spec="https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz" args=["serve-favicon","https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz"]
+329 verbose parsed url { protocol: 'https:',
+329 verbose parsed url   slashes: true,
+329 verbose parsed url   auth: null,
+329 verbose parsed url   host: 'registry.npmjs.org',
+329 verbose parsed url   port: null,
+329 verbose parsed url   hostname: 'registry.npmjs.org',
+329 verbose parsed url   hash: null,
+329 verbose parsed url   search: null,
+329 verbose parsed url   query: null,
+329 verbose parsed url   pathname: '/serve-favicon/-/serve-favicon-2.1.7.tgz',
+329 verbose parsed url   path: '/serve-favicon/-/serve-favicon-2.1.7.tgz',
+329 verbose parsed url   href: 'https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz' }
+330 silly lockFile 901719e4--favicon-serve-favicon-2-1-7-tgz https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+331 verbose lock https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz /Users/kelvin/.npm/901719e4--favicon-serve-favicon-2-1-7-tgz.lock
+332 verbose cache add name="sitemap" spec="https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz" args=["sitemap","https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz"]
+333 verbose parsed url { protocol: 'https:',
+333 verbose parsed url   slashes: true,
+333 verbose parsed url   auth: null,
+333 verbose parsed url   host: 'registry.npmjs.org',
+333 verbose parsed url   port: null,
+333 verbose parsed url   hostname: 'registry.npmjs.org',
+333 verbose parsed url   hash: null,
+333 verbose parsed url   search: null,
+333 verbose parsed url   query: null,
+333 verbose parsed url   pathname: '/sitemap/-/sitemap-0.7.4.tgz',
+333 verbose parsed url   path: '/sitemap/-/sitemap-0.7.4.tgz',
+333 verbose parsed url   href: 'https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz' }
+334 silly lockFile 48a1be6d-js-org-sitemap-sitemap-0-7-4-tgz https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz
+335 verbose lock https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz /Users/kelvin/.npm/48a1be6d-js-org-sitemap-sitemap-0-7-4-tgz.lock
+336 verbose cache add name="socket.io" spec="https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz" args=["socket.io","https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz"]
+337 verbose parsed url { protocol: 'https:',
+337 verbose parsed url   slashes: true,
+337 verbose parsed url   auth: null,
+337 verbose parsed url   host: 'registry.npmjs.org',
+337 verbose parsed url   port: null,
+337 verbose parsed url   hostname: 'registry.npmjs.org',
+337 verbose parsed url   hash: null,
+337 verbose parsed url   search: null,
+337 verbose parsed url   query: null,
+337 verbose parsed url   pathname: '/socket.io/-/socket.io-0.9.17.tgz',
+337 verbose parsed url   path: '/socket.io/-/socket.io-0.9.17.tgz',
+337 verbose parsed url   href: 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz' }
+338 silly lockFile dc5b8fe7-g-socket-io-socket-io-0-9-17-tgz https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz
+339 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz /Users/kelvin/.npm/dc5b8fe7-g-socket-io-socket-io-0-9-17-tgz.lock
+340 verbose cache add name="socket.io-client" spec="https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz" args=["socket.io-client","https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz"]
+341 verbose parsed url { protocol: 'https:',
+341 verbose parsed url   slashes: true,
+341 verbose parsed url   auth: null,
+341 verbose parsed url   host: 'registry.npmjs.org',
+341 verbose parsed url   port: null,
+341 verbose parsed url   hostname: 'registry.npmjs.org',
+341 verbose parsed url   hash: null,
+341 verbose parsed url   search: null,
+341 verbose parsed url   query: null,
+341 verbose parsed url   pathname: '/socket.io-client/-/socket.io-client-0.9.17.tgz',
+341 verbose parsed url   path: '/socket.io-client/-/socket.io-client-0.9.17.tgz',
+341 verbose parsed url   href: 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz' }
+342 silly lockFile 8fc20a45-ient-socket-io-client-0-9-17-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz
+343 verbose lock https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz /Users/kelvin/.npm/8fc20a45-ient-socket-io-client-0-9-17-tgz.lock
+344 verbose cache add name="socket.io-wildcard" spec="https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz" args=["socket.io-wildcard","https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz"]
+345 verbose parsed url { protocol: 'https:',
+345 verbose parsed url   slashes: true,
+345 verbose parsed url   auth: null,
+345 verbose parsed url   host: 'registry.npmjs.org',
+345 verbose parsed url   port: null,
+345 verbose parsed url   hostname: 'registry.npmjs.org',
+345 verbose parsed url   hash: null,
+345 verbose parsed url   search: null,
+345 verbose parsed url   query: null,
+345 verbose parsed url   pathname: '/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+345 verbose parsed url   path: '/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+345 verbose parsed url   href: 'https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz' }
+346 silly lockFile a6abbac4-ard-socket-io-wildcard-0-1-1-tgz https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz
+347 verbose lock https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz /Users/kelvin/.npm/a6abbac4-ard-socket-io-wildcard-0-1-1-tgz.lock
+348 verbose cache add name="string" spec="https://registry.npmjs.org/string/-/string-2.2.0.tgz" args=["string","https://registry.npmjs.org/string/-/string-2.2.0.tgz"]
+349 verbose parsed url { protocol: 'https:',
+349 verbose parsed url   slashes: true,
+349 verbose parsed url   auth: null,
+349 verbose parsed url   host: 'registry.npmjs.org',
+349 verbose parsed url   port: null,
+349 verbose parsed url   hostname: 'registry.npmjs.org',
+349 verbose parsed url   hash: null,
+349 verbose parsed url   search: null,
+349 verbose parsed url   query: null,
+349 verbose parsed url   pathname: '/string/-/string-2.2.0.tgz',
+349 verbose parsed url   path: '/string/-/string-2.2.0.tgz',
+349 verbose parsed url   href: 'https://registry.npmjs.org/string/-/string-2.2.0.tgz' }
+350 silly lockFile f2bd5055-pmjs-org-string-string-2-2-0-tgz https://registry.npmjs.org/string/-/string-2.2.0.tgz
+351 verbose lock https://registry.npmjs.org/string/-/string-2.2.0.tgz /Users/kelvin/.npm/f2bd5055-pmjs-org-string-string-2-2-0-tgz.lock
+352 verbose cache add name="templates.js" spec="https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz" args=["templates.js","https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz"]
+353 verbose parsed url { protocol: 'https:',
+353 verbose parsed url   slashes: true,
+353 verbose parsed url   auth: null,
+353 verbose parsed url   host: 'registry.npmjs.org',
+353 verbose parsed url   port: null,
+353 verbose parsed url   hostname: 'registry.npmjs.org',
+353 verbose parsed url   hash: null,
+353 verbose parsed url   search: null,
+353 verbose parsed url   query: null,
+353 verbose parsed url   pathname: '/templates.js/-/templates.js-0.1.2.tgz',
+353 verbose parsed url   path: '/templates.js/-/templates.js-0.1.2.tgz',
+353 verbose parsed url   href: 'https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz' }
+354 silly lockFile 1969bc96-plates-js-templates-js-0-1-2-tgz https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz
+355 verbose lock https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz /Users/kelvin/.npm/1969bc96-plates-js-templates-js-0-1-2-tgz.lock
+356 verbose cache add name="uglify-js" spec="git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1" args=["uglify-js","git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1"]
+357 verbose parsed url { protocol: 'git+https:',
+357 verbose parsed url   slashes: true,
+357 verbose parsed url   auth: null,
+357 verbose parsed url   host: 'github.com',
+357 verbose parsed url   port: null,
+357 verbose parsed url   hostname: 'github.com',
+357 verbose parsed url   hash: '#859a5e4b06173fcec581ec91d9c6f27c60e78ef1',
+357 verbose parsed url   search: null,
+357 verbose parsed url   query: null,
+357 verbose parsed url   pathname: '/julianlam/UglifyJS2.git',
+357 verbose parsed url   path: '/julianlam/UglifyJS2.git',
+357 verbose parsed url   href: 'git+https://github.com/julianlam/UglifyJS2.git#859a5e4b06173fcec581ec91d9c6f27c60e78ef1' }
+358 silly lockFile edf3bfe4-thub-com-julianlam-UglifyJS2-git https://github.com/julianlam/UglifyJS2.git
+359 verbose lock https://github.com/julianlam/UglifyJS2.git /Users/kelvin/.npm/edf3bfe4-thub-com-julianlam-UglifyJS2-git.lock
+360 verbose cache add name="underscore" spec="https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz" args=["underscore","https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz"]
+361 verbose parsed url { protocol: 'https:',
+361 verbose parsed url   slashes: true,
+361 verbose parsed url   auth: null,
+361 verbose parsed url   host: 'registry.npmjs.org',
+361 verbose parsed url   port: null,
+361 verbose parsed url   hostname: 'registry.npmjs.org',
+361 verbose parsed url   hash: null,
+361 verbose parsed url   search: null,
+361 verbose parsed url   query: null,
+361 verbose parsed url   pathname: '/underscore/-/underscore-1.7.0.tgz',
+361 verbose parsed url   path: '/underscore/-/underscore-1.7.0.tgz',
+361 verbose parsed url   href: 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz' }
+362 silly lockFile 0bc9860b--underscore-underscore-1-7-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+363 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz /Users/kelvin/.npm/0bc9860b--underscore-underscore-1-7-0-tgz.lock
+364 verbose cache add name="validator" spec="https://registry.npmjs.org/validator/-/validator-3.21.0.tgz" args=["validator","https://registry.npmjs.org/validator/-/validator-3.21.0.tgz"]
+365 verbose parsed url { protocol: 'https:',
+365 verbose parsed url   slashes: true,
+365 verbose parsed url   auth: null,
+365 verbose parsed url   host: 'registry.npmjs.org',
+365 verbose parsed url   port: null,
+365 verbose parsed url   hostname: 'registry.npmjs.org',
+365 verbose parsed url   hash: null,
+365 verbose parsed url   search: null,
+365 verbose parsed url   query: null,
+365 verbose parsed url   pathname: '/validator/-/validator-3.21.0.tgz',
+365 verbose parsed url   path: '/validator/-/validator-3.21.0.tgz',
+365 verbose parsed url   href: 'https://registry.npmjs.org/validator/-/validator-3.21.0.tgz' }
+366 silly lockFile 748e7af2-g-validator-validator-3-21-0-tgz https://registry.npmjs.org/validator/-/validator-3.21.0.tgz
+367 verbose lock https://registry.npmjs.org/validator/-/validator-3.21.0.tgz /Users/kelvin/.npm/748e7af2-g-validator-validator-3-21-0-tgz.lock
+368 verbose cache add name="winston" spec="https://registry.npmjs.org/winston/-/winston-0.8.3.tgz" args=["winston","https://registry.npmjs.org/winston/-/winston-0.8.3.tgz"]
+369 verbose parsed url { protocol: 'https:',
+369 verbose parsed url   slashes: true,
+369 verbose parsed url   auth: null,
+369 verbose parsed url   host: 'registry.npmjs.org',
+369 verbose parsed url   port: null,
+369 verbose parsed url   hostname: 'registry.npmjs.org',
+369 verbose parsed url   hash: null,
+369 verbose parsed url   search: null,
+369 verbose parsed url   query: null,
+369 verbose parsed url   pathname: '/winston/-/winston-0.8.3.tgz',
+369 verbose parsed url   path: '/winston/-/winston-0.8.3.tgz',
+369 verbose parsed url   href: 'https://registry.npmjs.org/winston/-/winston-0.8.3.tgz' }
+370 silly lockFile 780ec438-js-org-winston-winston-0-8-3-tgz https://registry.npmjs.org/winston/-/winston-0.8.3.tgz
+371 verbose lock https://registry.npmjs.org/winston/-/winston-0.8.3.tgz /Users/kelvin/.npm/780ec438-js-org-winston-winston-0-8-3-tgz.lock
+372 verbose cache add name="xregexp" spec="https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz" args=["xregexp","https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz"]
+373 verbose parsed url { protocol: 'https:',
+373 verbose parsed url   slashes: true,
+373 verbose parsed url   auth: null,
+373 verbose parsed url   host: 'registry.npmjs.org',
+373 verbose parsed url   port: null,
+373 verbose parsed url   hostname: 'registry.npmjs.org',
+373 verbose parsed url   hash: null,
+373 verbose parsed url   search: null,
+373 verbose parsed url   query: null,
+373 verbose parsed url   pathname: '/xregexp/-/xregexp-2.0.0.tgz',
+373 verbose parsed url   path: '/xregexp/-/xregexp-2.0.0.tgz',
+373 verbose parsed url   href: 'https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz' }
+374 silly lockFile 18fdc1dc-js-org-xregexp-xregexp-2-0-0-tgz https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz
+375 verbose lock https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz /Users/kelvin/.npm/18fdc1dc-js-org-xregexp-xregexp-2-0-0-tgz.lock
+376 verbose cache add name="async" spec="https://registry.npmjs.org/async/-/async-0.9.0.tgz" args=["async","https://registry.npmjs.org/async/-/async-0.9.0.tgz"]
+377 verbose parsed url { protocol: 'https:',
+377 verbose parsed url   slashes: true,
+377 verbose parsed url   auth: null,
+377 verbose parsed url   host: 'registry.npmjs.org',
+377 verbose parsed url   port: null,
+377 verbose parsed url   hostname: 'registry.npmjs.org',
+377 verbose parsed url   hash: null,
+377 verbose parsed url   search: null,
+377 verbose parsed url   query: null,
+377 verbose parsed url   pathname: '/async/-/async-0.9.0.tgz',
+377 verbose parsed url   path: '/async/-/async-0.9.0.tgz',
+377 verbose parsed url   href: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz' }
+378 silly lockFile 282f4be9--npmjs-org-async-async-0-9-0-tgz https://registry.npmjs.org/async/-/async-0.9.0.tgz
+379 verbose lock https://registry.npmjs.org/async/-/async-0.9.0.tgz /Users/kelvin/.npm/282f4be9--npmjs-org-async-async-0-9-0-tgz.lock
+380 verbose cache add name="bcryptjs" spec="https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz" args=["bcryptjs","https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz"]
+381 verbose parsed url { protocol: 'https:',
+381 verbose parsed url   slashes: true,
+381 verbose parsed url   auth: null,
+381 verbose parsed url   host: 'registry.npmjs.org',
+381 verbose parsed url   port: null,
+381 verbose parsed url   hostname: 'registry.npmjs.org',
+381 verbose parsed url   hash: null,
+381 verbose parsed url   search: null,
+381 verbose parsed url   query: null,
+381 verbose parsed url   pathname: '/bcryptjs/-/bcryptjs-2.0.2.tgz',
+381 verbose parsed url   path: '/bcryptjs/-/bcryptjs-2.0.2.tgz',
+381 verbose parsed url   href: 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz' }
+382 silly lockFile 20f3820a--org-bcryptjs-bcryptjs-2-0-2-tgz https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+383 verbose lock https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz /Users/kelvin/.npm/20f3820a--org-bcryptjs-bcryptjs-2-0-2-tgz.lock
+384 http GET https://registry.npmjs.org/connect-multiparty/-/connect-multiparty-1.2.5.tgz
+385 info retry fetch attempt 1 at 23:29:57
+386 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397119-0.37668797420337796/tmp.tgz
+387 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.10.2.tgz',
+387 verbose addRemoteTarball   null ]
+388 info retry fetch attempt 1 at 23:29:57
+389 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397126-0.5270212513860315/tmp.tgz
+390 verbose addRemoteTarball [ 'https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz',
+390 verbose addRemoteTarball   null ]
+391 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz',
+391 verbose addRemoteTarball   null ]
+392 verbose addRemoteTarball [ 'https://registry.npmjs.org/gm/-/gm-1.16.0.tgz', null ]
+393 verbose addRemoteTarball [ 'https://registry.npmjs.org/less/-/less-1.7.5.tgz', null ]
+394 verbose addRemoteTarball [ 'https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz',
+394 verbose addRemoteTarball   null ]
+395 verbose addRemoteTarball [ 'https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz', null ]
+396 verbose addRemoteTarball [ 'http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz', null ]
+397 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz', null ]
+398 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz',
+398 verbose addRemoteTarball   null ]
+399 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz',
+399 verbose addRemoteTarball   null ]
+400 silly addNameRange { name: 'mocha', range: '>=1.13.0-0 <1.14.0-0', hasData: false }
+401 verbose url raw nodebb-plugin-mentions
+402 verbose url resolving [ 'https://registry.npmjs.org/', './nodebb-plugin-mentions' ]
+403 verbose url resolved https://registry.npmjs.org/nodebb-plugin-mentions
+404 info trying registry request attempt 1 at 23:29:57
+405 http GET https://registry.npmjs.org/nodebb-plugin-mentions
+406 http GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz
+407 info retry fetch attempt 1 at 23:29:57
+408 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397129-0.0656293595675379/tmp.tgz
+409 http GET https://registry.npmjs.org/cron/-/cron-1.0.5.tgz
+410 info retry fetch attempt 1 at 23:29:57
+411 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397170-0.6016068828757852/tmp.tgz
+412 info retry fetch attempt 1 at 23:29:57
+413 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397171-0.8001791057176888/tmp.tgz
+414 info retry fetch attempt 1 at 23:29:57
+415 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397171-0.31323915254324675/tmp.tgz
+416 info retry fetch attempt 1 at 23:29:57
+417 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397171-0.9024273375980556/tmp.tgz
+418 info retry fetch attempt 1 at 23:29:57
+419 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397171-0.42233373248018324/tmp.tgz
+420 info retry fetch attempt 1 at 23:29:57
+421 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397172-0.2847286278847605/tmp.tgz
+422 info retry fetch attempt 1 at 23:29:57
+423 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397172-0.059485272038728/tmp.tgz
+424 info retry fetch attempt 1 at 23:29:57
+425 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397171-0.8003022423945367/tmp.tgz
+426 info retry fetch attempt 1 at 23:29:57
+427 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397172-0.37711315881460905/tmp.tgz
+428 info retry fetch attempt 1 at 23:29:57
+429 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397173-0.6890005068853498/tmp.tgz
+430 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz',
+430 verbose addRemoteTarball   null ]
+431 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz',
+431 verbose addRemoteTarball   null ]
+432 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz',
+432 verbose addRemoteTarball   null ]
+433 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz',
+433 verbose addRemoteTarball   null ]
+434 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-2.1.9.tgz', null ]
+435 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport/-/passport-0.2.1.tgz',
+435 verbose addRemoteTarball   null ]
+436 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+436 verbose addRemoteTarball   null ]
+437 verbose addRemoteTarball [ 'https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+437 verbose addRemoteTarball   null ]
+438 verbose addRemoteTarball [ 'https://registry.npmjs.org/reds/-/reds-0.2.4.tgz', null ]
+439 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.48.0.tgz',
+439 verbose addRemoteTarball   null ]
+440 verbose addRemoteTarball [ 'https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz', null ]
+441 verbose addRemoteTarball [ 'https://registry.npmjs.org/rss/-/rss-1.0.1.tgz', null ]
+442 verbose addRemoteTarball [ 'https://registry.npmjs.org/semver/-/semver-4.1.0.tgz', null ]
+443 verbose addRemoteTarball [ 'https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz',
+443 verbose addRemoteTarball   null ]
+444 verbose addRemoteTarball [ 'https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz',
+444 verbose addRemoteTarball   null ]
+445 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz',
+445 verbose addRemoteTarball   null ]
+446 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz',
+446 verbose addRemoteTarball   null ]
+447 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz',
+447 verbose addRemoteTarball   null ]
+448 verbose addRemoteTarball [ 'https://registry.npmjs.org/string/-/string-2.2.0.tgz', null ]
+449 verbose addRemoteTarball [ 'https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz',
+449 verbose addRemoteTarball   null ]
+450 verbose addRemoteGit [ 'https://github.com/julianlam/UglifyJS2.git',
+450 verbose addRemoteGit   '859a5e4b06173fcec581ec91d9c6f27c60e78ef1' ]
+451 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz',
+451 verbose addRemoteTarball   null ]
+452 verbose addRemoteTarball [ 'https://registry.npmjs.org/winston/-/winston-0.8.3.tgz',
+452 verbose addRemoteTarball   null ]
+453 verbose addRemoteTarball [ 'https://registry.npmjs.org/validator/-/validator-3.21.0.tgz',
+453 verbose addRemoteTarball   null ]
+454 verbose addRemoteTarball [ 'https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz',
+454 verbose addRemoteTarball   null ]
+455 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.9.0.tgz', null ]
+456 verbose addRemoteTarball [ 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz',
+456 verbose addRemoteTarball   null ]
+457 http GET https://registry.npmjs.org/csurf/-/csurf-1.6.3.tgz
+458 http GET https://registry.npmjs.org/daemon/-/daemon-1.1.0.tgz
+459 info retry fetch attempt 1 at 23:29:57
+460 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397186-0.1294905433896929/tmp.tgz
+461 info retry fetch attempt 1 at 23:29:57
+462 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397186-0.31544069200754166/tmp.tgz
+463 info retry fetch attempt 1 at 23:29:57
+464 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397187-0.6327993767336011/tmp.tgz
+465 info retry fetch attempt 1 at 23:29:57
+466 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397187-0.13430560217238963/tmp.tgz
+467 info retry fetch attempt 1 at 23:29:57
+468 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397187-0.8960574134252965/tmp.tgz
+469 info retry fetch attempt 1 at 23:29:57
+470 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397187-0.590883489465341/tmp.tgz
+471 info retry fetch attempt 1 at 23:29:57
+472 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397187-0.7397282016463578/tmp.tgz
+473 info retry fetch attempt 1 at 23:29:57
+474 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397188-0.06924233469180763/tmp.tgz
+475 info retry fetch attempt 1 at 23:29:57
+476 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397188-0.9512717761099339/tmp.tgz
+477 info retry fetch attempt 1 at 23:29:57
+478 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397188-0.28771062893792987/tmp.tgz
+479 info retry fetch attempt 1 at 23:29:57
+480 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397189-0.5419242596253753/tmp.tgz
+481 info retry fetch attempt 1 at 23:29:57
+482 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397189-0.8002304995898157/tmp.tgz
+483 info retry fetch attempt 1 at 23:29:57
+484 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397189-0.6210246572736651/tmp.tgz
+485 info retry fetch attempt 1 at 23:29:57
+486 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397190-0.7386494015809149/tmp.tgz
+487 info retry fetch attempt 1 at 23:29:57
+488 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397190-0.35085600055754185/tmp.tgz
+489 info retry fetch attempt 1 at 23:29:57
+490 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397190-0.7437076466158032/tmp.tgz
+491 info retry fetch attempt 1 at 23:29:57
+492 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397190-0.5662359581328928/tmp.tgz
+493 info retry fetch attempt 1 at 23:29:57
+494 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397191-0.02405778761021793/tmp.tgz
+495 info retry fetch attempt 1 at 23:29:57
+496 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397191-0.4448738384526223/tmp.tgz
+497 info retry fetch attempt 1 at 23:29:57
+498 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397191-0.5872993757948279/tmp.tgz
+499 info retry fetch attempt 1 at 23:29:57
+500 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397192-0.27532716002315283/tmp.tgz
+501 info retry fetch attempt 1 at 23:29:57
+502 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397193-0.2745919704902917/tmp.tgz
+503 info retry fetch attempt 1 at 23:29:57
+504 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397193-0.24463319079950452/tmp.tgz
+505 info retry fetch attempt 1 at 23:29:57
+506 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397195-0.2534325497690588/tmp.tgz
+507 info retry fetch attempt 1 at 23:29:57
+508 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397195-0.533119514817372/tmp.tgz
+509 info retry fetch attempt 1 at 23:29:57
+510 verbose fetch to= /var/folders/10/8g__1p2n5x7dnyy64zqrp63m0000gn/T/npm-1930-WrlKw8ec/1417793397195-0.9093492957763374/tmp.tgz
+511 http GET https://registry.npmjs.org/express/-/express-4.10.2.tgz
+512 http GET https://registry.npmjs.org/gravatar/-/gravatar-1.1.0.tgz
+513 http GET https://registry.npmjs.org/express-session/-/express-session-1.9.2.tgz
+514 http GET https://registry.npmjs.org/gm/-/gm-1.16.0.tgz
+515 http GET https://registry.npmjs.org/less/-/less-1.7.5.tgz
+516 http GET https://registry.npmjs.org/logrotate-stream/-/logrotate-stream-0.2.3.tgz
+517 http GET https://registry.npmjs.org/morgan/-/morgan-1.5.0.tgz
+518 http GET http://registry.npmjs.org/nconf/-/nconf-0.6.9.tgz
+519 http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz
+520 http GET https://registry.npmjs.org/nodebb-plugin-dbsearch/-/nodebb-plugin-dbsearch-0.0.15.tgz
+521 http GET https://registry.npmjs.org/nodebb-plugin-markdown/-/nodebb-plugin-markdown-0.7.4.tgz
+522 http GET https://registry.npmjs.org/nodebb-plugin-soundpack-default/-/nodebb-plugin-soundpack-default-0.1.1.tgz
+523 http GET https://registry.npmjs.org/nodebb-theme-lavender/-/nodebb-theme-lavender-0.1.13.tgz
+524 http GET https://registry.npmjs.org/nodebb-theme-vanilla/-/nodebb-theme-vanilla-0.1.30.tgz
+525 http GET https://registry.npmjs.org/nodebb-widget-essentials/-/nodebb-widget-essentials-0.1.2.tgz
+526 http GET https://registry.npmjs.org/npm/-/npm-2.1.9.tgz
+527 http GET https://registry.npmjs.org/passport/-/passport-0.2.1.tgz
+528 http GET https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+529 http GET https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz
+530 http GET https://registry.npmjs.org/reds/-/reds-0.2.4.tgz
+531 http GET https://registry.npmjs.org/request/-/request-2.48.0.tgz
+532 http GET https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz
+533 http GET https://registry.npmjs.org/rss/-/rss-1.0.1.tgz
+534 http GET https://registry.npmjs.org/semver/-/semver-4.1.0.tgz
+535 http GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.1.7.tgz
+536 http GET https://registry.npmjs.org/sitemap/-/sitemap-0.7.4.tgz
+537 http GET https://registry.npmjs.org/socket.io/-/socket.io-0.9.17.tgz
+538 http GET https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.17.tgz
+539 http GET https://registry.npmjs.org/socket.io-wildcard/-/socket.io-wildcard-0.1.1.tgz
+540 http GET https://registry.npmjs.org/string/-/string-2.2.0.tgz
+541 http GET https://registry.npmjs.org/templates.js/-/templates.js-0.1.2.tgz
+542 http GET https://registry.npmjs.org/underscore/-/underscore-1.7.0.tgz
+543 http GET https://registry.npmjs.org/winston/-/winston-0.8.3.tgz
+544 http GET https://registry.npmjs.org/validator/-/validator-3.21.0.tgz
+545 http GET https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz
+546 http GET https://registry.npmjs.org/async/-/async-0.9.0.tgz
+547 http GET https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+548 silly lockFile edf3bfe4-thub-com-julianlam-UglifyJS2-git https://github.com/julianlam/UglifyJS2.git
+549 silly lockFile edf3bfe4-thub-com-julianlam-UglifyJS2-git https://github.com/julianlam/UglifyJS2.git
+550 verbose url raw mocha
+551 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+552 verbose url resolved https://registry.npmjs.org/mocha
+553 info trying registry request attempt 1 at 23:29:57
+554 verbose etag "6J8XQUQ0E026AEQ2SFUJEG4Y1"
+555 http GET https://registry.npmjs.org/mocha
+556 error Error: EACCES, mkdir '/Users/kelvin/.npm/_git-remotes/https-github-com-julianlam-UglifyJS2-git-edf3bfe4'
+556 error  { [Error: EACCES, mkdir '/Users/kelvin/.npm/_git-remotes/https-github-com-julianlam-UglifyJS2-git-edf3bfe4']
+556 error   errno: 3,
+556 error   code: 'EACCES',
+556 error   path: '/Users/kelvin/.npm/_git-remotes/https-github-com-julianlam-UglifyJS2-git-edf3bfe4',
+556 error   parent: 'nodebb' }
+557 error Please try running this command again as root/Administrator.
+558 error System Darwin 14.0.0
+559 error command "node" "/usr/local/bin/npm" "install"
+560 error cwd /Users/kelvin/Documents/git/nodebb
+561 error node -v v0.10.28
+562 error npm -v 1.4.9
+563 error path /Users/kelvin/.npm/_git-remotes/https-github-com-julianlam-UglifyJS2-git-edf3bfe4
+564 error code EACCES
+565 error errno 3
+566 error stack Error: EACCES, mkdir '/Users/kelvin/.npm/_git-remotes/https-github-com-julianlam-UglifyJS2-git-edf3bfe4'
+567 verbose exit [ 3, true ]
